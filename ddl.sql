@@ -17,7 +17,7 @@ create table hospital (
 
 create table plano_de_saude (
     nome_plano varchar(30) primary key unique not null,
-    telefone int,
+    telefone varchar,
     cobertura cobertura_plano
 );
 
